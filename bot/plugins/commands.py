@@ -31,14 +31,11 @@ async def start(bot, update):
                 caption = caption,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton
-                                (
-                                    'Developers', url="https://t.me/myrplixofficial"
-                                )
-                        ]
-                    ]
+                    [[
+                        InlineKeyboardButton('Developers 🛠', url='https://t.me/myrplixofficial'),
+    ],[
+        InlineKeyboardButton('Donate 💰', url='https://toyyibpay.com/Myrplix-Support')
+  ]]
                 )
             )
         except Exception as e:
