@@ -32,7 +32,7 @@ async def start(bot, update):
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton('Donate | Support - Myrplix💰', url='https://toyyibpay.com/Myrplix-Support')
+                        InlineKeyboardButton('💰 Donate | Support - Myrplix 💰', url='https://toyyibpay.com/Myrplix-Support')
   ]]
                 )
             )
